@@ -1202,57 +1202,249 @@ body {
 
 @media (max-width: 480px) {
     :root {
-        --section-padding: 60px;
+        --section-padding: 48px;
     }
 
     body {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .container {
         padding: 0 16px;
     }
 
-    .section-title {
-        font-size: 28px;
+    /* Hero Section Mobile */
+    .hero {
+        padding-top: 100px;
+        min-height: auto;
+        padding-bottom: 60px;
+    }
+
+    .hero-badge {
+        font-size: 11px;
+        padding: 6px 12px;
     }
 
     .hero-title {
-        font-size: 32px;
+        font-size: 28px;
+        line-height: 1.2;
     }
 
     .hero-subtitle {
-        font-size: 16px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .hero-location {
+        font-size: 12px;
     }
 
     .hero-ctas {
         flex-direction: column;
+        gap: 12px;
     }
 
     .btn {
         width: 100%;
         justify-content: center;
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    /* Stats Mobile */
+    .hero-stats {
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .stat {
+        flex: 1 1 45%;
     }
 
     .stat-number {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .stat-label {
+        font-size: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    /* Section Headers Mobile */
+    .section-header {
+        margin-bottom: 32px;
+    }
+
+    .section-tag {
         font-size: 11px;
     }
 
+    .section-title {
+        font-size: 24px;
+    }
+
+    .section-description {
+        font-size: 14px;
+    }
+
+    /* Cards Mobile */
     .glass-card {
         padding: 16px;
     }
 
-    .project-card h3,
-    .achievement-card h3,
-    .activity-card h3 {
+    .about-card h3,
+    .skills-card h3 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .about-card p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* Values Cards Mobile */
+    .value-card {
+        padding: 16px;
+    }
+
+    .value-icon {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .value-card h4 {
+        font-size: 14px;
+    }
+
+    .value-card p {
+        font-size: 12px;
+    }
+
+    /* Skills/Interests Grid Mobile */
+    .skill-category h4 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .skill-category ul {
+        font-size: 13px;
+    }
+
+    .skill-category li {
+        padding: 4px 0;
+    }
+
+    /* Achievement Cards Mobile */
+    .achievement-card {
+        padding: 16px;
+    }
+
+    .achievement-icon {
+        font-size: 28px;
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+    }
+
+    .achievement-card h3 {
+        font-size: 15px;
+    }
+
+    .achievement-card p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .achievement-year {
+        font-size: 11px;
+    }
+
+    /* Project Cards Mobile */
+    .project-card h3 {
         font-size: 16px;
+    }
+
+    .project-card p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .project-tags span {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+
+    .project-placeholder span {
+        font-size: 32px;
+    }
+
+    /* Activity Cards Mobile */
+    .activity-card {
+        padding: 16px;
+    }
+
+    .activity-icon {
+        font-size: 24px;
+        width: 44px;
+        height: 44px;
+    }
+
+    .activity-card h3 {
+        font-size: 15px;
+    }
+
+    .activity-card p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .highlight-tag {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+
+    /* Contact Section Mobile */
+    .contact-item {
+        padding: 12px;
+    }
+
+    .contact-icon {
+        font-size: 20px;
+    }
+
+    .contact-item h4 {
+        font-size: 13px;
+    }
+
+    .contact-item a,
+    .contact-item span {
+        font-size: 12px;
+    }
+
+    /* Footer Mobile */
+    .footer {
+        padding: 32px 0;
     }
 
     .footer-content {
         text-align: center;
+    }
+
+    .footer-logo {
+        font-size: 20px;
+    }
+
+    .footer-tagline {
+        font-size: 13px;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+
+    /* Nav Mobile */
+    .nav-logo {
+        font-size: 18px;
     }
 }
